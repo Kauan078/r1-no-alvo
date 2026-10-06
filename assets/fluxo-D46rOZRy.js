@@ -1,0 +1,1 @@
+var e=`r1noalvo:auth:fluxo`;function t(t){try{sessionStorage.setItem(e,JSON.stringify(t))}catch{}i=t}function n(){try{let t=sessionStorage.getItem(e);if(t)return JSON.parse(t)}catch{}return i}function r(){try{sessionStorage.removeItem(e)}catch{}i=null}var i=null;export{n,r,t};

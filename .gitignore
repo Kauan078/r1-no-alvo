@@ -1,0 +1,13 @@
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Caso um dia o codigo-fonte seja recuperado
+node_modules/
+.env
+.env.*
